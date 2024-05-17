@@ -9,7 +9,7 @@ TOKEN = os.getenv("MARKET_TOKEN")
 
 QUOTE = "https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/latest"
 parameters = {
-    "id": 11419,
+    "id": 11419,  # TON id on CoinMarketCap site
     "convert": "USD"
 }
 headers = {
