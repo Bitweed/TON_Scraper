@@ -4,7 +4,7 @@ import telebot
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv("MARKET_TOKEN")
+TOKEN = os.getenv("BOT_TOKEN")
 CHAT_ID: int = int(os.getenv("CHAT_ID"))
 
 bot = telebot.TeleBot(TOKEN)
